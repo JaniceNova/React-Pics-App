@@ -1,0 +1,11 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill /* decided automatically how many columns to add*/, minmax(250px, 1fr));
+    grid-gap: 10px;
+    
+}
+
+.image-list img {
+    width: 250px;
+
+}
